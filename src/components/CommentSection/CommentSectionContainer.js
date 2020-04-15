@@ -15,7 +15,7 @@ const CommentSection = props => {
         return <Comment key={index} comment={item}/>
       })
     }
-    <CommentInput />
+    <CommentInput />{ /* an empty mutable text box */}
     </div>
   );
 };

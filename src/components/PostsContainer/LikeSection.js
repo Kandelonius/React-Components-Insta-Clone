@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faHeart } from '@fortawesome/free-regular-svg-icons'
 // rendered by post postpage app
 const LikeSection = props => {
-  console.log(props.likes);
+  // console.log(props.likes);
   return (
     <div>
       <div
